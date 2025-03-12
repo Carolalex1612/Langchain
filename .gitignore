@@ -1,0 +1,22 @@
+# Ignore API keys and environment variables
+.env
+*.env
+
+# Ignore Python virtual environments
+venv/
+env/
+.langPractice/
+
+# Ignore Google Generative AI and Hugging Face API keys
+GOOGLE_API_KEY
+HUGGINGFACEHUB_API_KEY
+
+# Ignore installed dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore package directories (if using pip)
+langPractice/Lib/site-packages/
