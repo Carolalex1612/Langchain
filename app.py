@@ -16,7 +16,7 @@ def get_gemini_ai_response(question):
 st.set_page_config(page_title="Q & A Demo")
 st.header("LangChain + Gemini AI App")
 
-question = st.text_input("Enter your question:")
+question = st.text_input("Enter your question :")
 
 if st.button("Ask the Question"):
     response = get_gemini_ai_response(question)
